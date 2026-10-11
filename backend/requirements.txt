@@ -1,0 +1,48 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+sqlalchemy==2.0.32
+pydantic==2.8.2
+pydantic-settings==2.4.0
+python-dotenv==1.0.1
+aiofiles==24.1.0
+networkx==3.3
+PyMuPDF>=1.24.9
+pdfplumber==0.11.4
+Pillow>=10.0.0          # multimodal ingestion: image analysis (app/services/multimodal.py)
+numpy>=1.26
+spacy==3.8.7
+
+# --- RAG: real vector search for retrieval-augmented lesson generation ---
+# One FAISS index per subject, sentence-transformers/all-MiniLM-L6-v2 for
+# embeddings (~80MB model download on first run, CPU-friendly). This is a
+# real dependency add (installs numpy + torch under the hood via
+# sentence-transformers), so it's a heavier install than the rest of this
+# file -- but it's what actually makes RAG retrieval work instead of
+# silently no-op'ing. If you don't want this, comment these two lines out;
+# every call site that uses them fails soft and falls back to naive
+# excerpt-based context instead of retrieval.
+faiss-cpu==1.9.0.post1
+sentence-transformers==3.0.1
+
+# --- Tests ---
+# Real dependencies, not a comment: `python -m pytest tests` needs pytest,
+# and the Phase 1 multimodal tests build a PDF (with a table and a chart
+# image in it) at runtime with reportlab, so 4 of the 46 tests error at
+# fixture setup without it. httpx backs fastapi's TestClient, which
+# test_http_integration.py and test_methodology_pipeline.py both use.
+# Install everything at once with install.cmd / install.sh.
+pytest>=8.0
+httpx>=0.27
+reportlab>=4.0
+
+# --- Optional / heavy extras (not installed by default) ---
+#   transformers (already pulled in by sentence-transformers) -> BLIP image
+#                          captions for PDF figures. Used automatically if the
+#                          model (Salesforce/blip-image-captioning-base, or set
+#                          BLIP_MODEL) can be loaded; otherwise figures get a
+#                          heuristic description instead of a caption.
+# Install these only if you need the corresponding feature:
+#   alembic, psycopg2-binary, supabase   -> Postgres/Supabase instead of the built-in SQLite
+#   camelot-py[cv]                       -> table extraction from PDFs
+#   paddlepaddle, paddleocr              -> OCR for scanned PDFs / images

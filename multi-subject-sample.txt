@@ -1,0 +1,25 @@
+Subject: Computer Science
+An introduction to programming and core data structures.
+
+Unit 1: Fundamentals
+- Variables
+- Functions
+- Conditionals
+
+Unit 2: Data Structures
+- Arrays
+- Linked Lists
+- Hash Tables
+
+Subject: Physics
+The study of matter, motion and energy.
+
+Unit 1: Mechanics
+- Kinematics
+- Newton's Laws
+- Work and Energy
+
+Unit 2: Waves
+- Wave Motion
+- Sound Waves
+- Optics Basics
