@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NSYA.AI — Turn any syllabus into a learning path</title>
+    <meta
+      name="description"
+      content="Upload a syllabus PDF and NSYA.AI extracts subjects, units and topics into an interactive learning canvas."
+    />
+    <meta property="og:title" content="NSYA.AI — Syllabus to learning path" />
+    <meta
+      property="og:description"
+      content="Upload a syllabus and get subjects, units, topics and interactive lessons generated for you."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <!--
+      Inline SVG data URI rather than a favicon.ico file: there was no
+      favicon.ico in this folder, so every page load took a 404. Inlining it
+      keeps this a zero-asset static build (nothing to serve but the files
+      that already exist) and removes the failed request.
+    -->
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f1115'/%3E%3Cpath d='M9 23V9l14 14V9' fill='none' stroke='%23f5f5f7' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!--
+      Point the app at your Python backend here. This is the ONLY place you
+      need to edit to connect the frontend to FastAPI/Flask/Django — it maps
+      1:1 to VITE_NSYA_API_URL in the original app. See docs/backend-api.md
+      for the full request/response contract (unchanged).
+    -->
+    <script>
+      window.NSYA_API_URL = "http://127.0.0.1:8000";
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="toast-root" aria-live="polite"></div>
+
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
