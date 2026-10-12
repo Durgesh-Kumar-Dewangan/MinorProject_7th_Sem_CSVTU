@@ -8,9 +8,10 @@ end-to-end. Two servers, no build step.
 
 ## 🖥️ UI Showcase
 
-<p align="center"> <img width="1920" height="1080" alt="Screenshot (239)" src="https://github.com/user-attachments/assets/686c1095-fd0a-4cfc-9a2f-a705c8b1b5b9" />
+<p align="center">  
 
-  <img src="screenshots/image-01.png" width="32%" alt="UI Screenshot 1">
+  <<img width="1920" height="1080" alt="Screenshot (239)" src="https://github.com/user-attachments/assets/d7152b0d-39e2-4621-a5df-479ede779f14" />
+ width="32%" alt="UI Screenshot 1">
   <img src="screenshots/image-02.png" width="32%" alt="UI Screenshot 2">
   <img src="screenshots/image-03.png" width="32%" alt="UI Screenshot 3">
   <img src="screenshots/image-04.png" width="32%" alt="UI Screenshot 4">
