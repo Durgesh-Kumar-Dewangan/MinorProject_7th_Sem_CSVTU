@@ -1,4 +1,4 @@
-# NSYA.AI — vanilla HTML/CSS/JS frontend
+# SYA.ai: An Explainable and Responsible AI Platform  Personalised Learning
 
 This is a straight conversion of the original React/TanStack frontend into
 plain HTML, CSS and JavaScript (ES modules, no build step, no framework).
