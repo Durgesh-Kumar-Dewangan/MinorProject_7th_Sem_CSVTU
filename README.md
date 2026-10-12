@@ -1,8 +1,29 @@
-# SYA.ai: An Explainable and Responsible AI Platform  Personalised Learning'(fixed & verified locally)
+<img width="1920" height="1080" alt="Screenshot (239)" src="https://github.com/user-attachments/assets/3dd39c7b-63fb-45ae-8aa5-8bd18a12051a" /># SYA.ai: An Explainable and Responsible AI Platform  Personalised Learning'(fixed & verified locally)
 
 This is your `NSYA-html` repo (FastAPI backend + vanilla-JS frontend) with the
 connection bugs fixed and the full upload → parse → learn flow verified
 end-to-end. Two servers, no build step.
+
+# Screenshot of the Project
+
+## 🖥️ UI Showcase
+
+<p align="center"> <img width="1920" height="1080" alt="Screenshot (239)" src="https://github.com/user-attachments/assets/686c1095-fd0a-4cfc-9a2f-a705c8b1b5b9" />
+
+  <img src="screenshots/image-01.png" width="32%" alt="UI Screenshot 1">
+  <img src="screenshots/image-02.png" width="32%" alt="UI Screenshot 2">
+  <img src="screenshots/image-03.png" width="32%" alt="UI Screenshot 3">
+  <img src="screenshots/image-04.png" width="32%" alt="UI Screenshot 4">
+  <img src="screenshots/image-05.png" width="32%" alt="UI Screenshot 5">
+  <img src="screenshots/image-06.png" width="32%" alt="UI Screenshot 6">
+  <img src="screenshots/image-07.png" width="32%" alt="UI Screenshot 7">
+  <img src="screenshots/image-08.png" width="32%" alt="UI Screenshot 8">
+  <img src="screenshots/image-09.png" width="32%" alt="UI Screenshot 9">
+  <img src="screenshots/image-10.png" width="32%" alt="UI Screenshot 10">
+  <img src="screenshots/image-11.png" width="32%" alt="UI Screenshot 11">
+  <img src="screenshots/image-12.png" width="32%" alt="UI Screenshot 12">
+</p>
+
 
 ## Subtopics are now a real, first-class part of the data model
 
