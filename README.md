@@ -11,8 +11,8 @@ end-to-end. Two servers, no build step.
 <p align="center">  
 
   <<img width="1920" height="1080" width="32%" alt="Screenshot (239)" src="https://github.com/user-attachments/assets/d7152b0d-39e2-4621-a5df-479ede779f14" />
- width="32%" alt="UI Screenshot 1">
-<img width="1920" height="1080" alt="Screenshot (240)" src="https://github.com/user-attachments/assets/50e3b4a0-4155-4672-ba69-63bc9ff69462" />
+
+<img width="1920" height="1080" width="32%" alt="Screenshot (240)" src="https://github.com/user-attachments/assets/50e3b4a0-4155-4672-ba69-63bc9ff69462" />
 <img width="1920" height="1080" alt="Screenshot (241)" src="https://github.com/user-attachments/assets/183e60f7-11e4-4cc4-b8fc-013c33a8ebd1" />
 <img width="1920" height="1080" alt="Screenshot (242)" src="https://github.com/user-attachments/assets/6e3d101c-ec18-4a65-92ea-ab085d834431" />
 <img width="1920" height="1080" alt="Screenshot (243)" src="https://github.com/user-attachments/assets/c37ef0d8-2ee2-446d-9cbf-2eaa2a25f177" />
