@@ -1,4 +1,4 @@
-# NSYA — Syllabus to Learning Path (fixed & verified locally)
+# SYA.ai: An Explainable and Responsible AI Platform  Personalised Learning'(fixed & verified locally)
 
 This is your `NSYA-html` repo (FastAPI backend + vanilla-JS frontend) with the
 connection bugs fixed and the full upload → parse → learn flow verified
