@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="Screenshot (239)" src="https://github.com/user-attachments/assets/3dd39c7b-63fb-45ae-8aa5-8bd18a12051a" /># SYA.ai: An Explainable and Responsible AI Platform  Personalised Learning'(fixed & verified locally)
+# SYA.ai: An Explainable and Responsible AI Platform  Personalised Learning'(fixed & verified locally)
 
 This is your `NSYA-html` repo (FastAPI backend + vanilla-JS frontend) with the
 connection bugs fixed and the full upload → parse → learn flow verified
@@ -10,19 +10,24 @@ end-to-end. Two servers, no build step.
 
 <p align="center">  
 
-  <<img width="1920" height="1080" alt="Screenshot (239)" src="https://github.com/user-attachments/assets/d7152b0d-39e2-4621-a5df-479ede779f14" />
+  <<img width="1920" height="1080" width="32%" alt="Screenshot (239)" src="https://github.com/user-attachments/assets/d7152b0d-39e2-4621-a5df-479ede779f14" />
  width="32%" alt="UI Screenshot 1">
+<img width="1920" height="1080" alt="Screenshot (240)" src="https://github.com/user-attachments/assets/50e3b4a0-4155-4672-ba69-63bc9ff69462" />
+<img width="1920" height="1080" alt="Screenshot (241)" src="https://github.com/user-attachments/assets/183e60f7-11e4-4cc4-b8fc-013c33a8ebd1" />
+<img width="1920" height="1080" alt="Screenshot (242)" src="https://github.com/user-attachments/assets/6e3d101c-ec18-4a65-92ea-ab085d834431" />
+<img width="1920" height="1080" alt="Screenshot (243)" src="https://github.com/user-attachments/assets/c37ef0d8-2ee2-446d-9cbf-2eaa2a25f177" />
+
+<img width="1920" height="1080" alt="Screenshot (244)" src="https://github.com/user-attachments/assets/f742f708-a10e-4473-9fbf-2762b6cea4ea" />
+<img width="1920" height="1080" alt="Screenshot (245)" src="https://github.com/user-attachments/assets/999393d0-39bb-4da8-a334-501a8c89a6b6" />
+<img width="1920" height="1080" alt="Screenshot (246)" src="https://github.com/user-attachments/assets/ee1f33e2-e77e-418f-b2ca-08eef5526290" />
+
+<img width="1920" height="1080" alt="Screenshot (247)" src="https://github.com/user-attachments/assets/6a774be8-f748-4d39-9d3a-2488842910f0" />
+<img width="1920" height="1080" alt="Screenshot (248)" src="https://github.com/user-attachments/assets/96745263-7770-40c0-8d90-5c2ae6721430" />
+<img width="1920" height="1080" alt="Screenshot (249)" src="https://github.com/user-attachments/assets/927c7419-9999-47cd-b981-bcb577c43bbb" />
+<img width="1920" height="1080" alt="Screenshot (250)" src="https://github.com/user-attachments/assets/64c35135-5896-4a4b-8491-9a51b0c70a2e" />
+
   <img src="screenshots/image-02.png" width="32%" alt="UI Screenshot 2">
-  <img src="screenshots/image-03.png" width="32%" alt="UI Screenshot 3">
-  <img src="screenshots/image-04.png" width="32%" alt="UI Screenshot 4">
-  <img src="screenshots/image-05.png" width="32%" alt="UI Screenshot 5">
-  <img src="screenshots/image-06.png" width="32%" alt="UI Screenshot 6">
-  <img src="screenshots/image-07.png" width="32%" alt="UI Screenshot 7">
-  <img src="screenshots/image-08.png" width="32%" alt="UI Screenshot 8">
-  <img src="screenshots/image-09.png" width="32%" alt="UI Screenshot 9">
-  <img src="screenshots/image-10.png" width="32%" alt="UI Screenshot 10">
-  <img src="screenshots/image-11.png" width="32%" alt="UI Screenshot 11">
-  <img src="screenshots/image-12.png" width="32%" alt="UI Screenshot 12">
+  
 </p>
 
 
