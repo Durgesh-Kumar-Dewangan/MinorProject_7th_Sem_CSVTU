@@ -13,6 +13,21 @@ Pillow>=10.0.0          # multimodal ingestion: image analysis (app/services/mul
 numpy>=1.26
 spacy==3.8.7
 
+
+
+##
+fastapi
+uvicorn[standard]
+sqlalchemy
+pymupdf
+pdfplumber
+faiss-cpu
+sentence-transformers
+rank-bm25
+networkx
+python-multipart
+python-dotenv
+
 # --- RAG: real vector search for retrieval-augmented lesson generation ---
 # One FAISS index per subject, sentence-transformers/all-MiniLM-L6-v2 for
 # embeddings (~80MB model download on first run, CPU-friendly). This is a
